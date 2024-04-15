@@ -15,15 +15,15 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        initViews();
+//        initViews();
     }
 
-    void initViews(){
-        TextView tv_detail = findViewById(R.id.tv_detail);
-
-        User user = (User) getIntent().getSerializableExtra("user");
-        Log.d(TAG, user.toString());
-
-        tv_detail.setText(user.toString());
-    }
+//    void initViews(){
+//        TextView tv_detail = findViewById(R.id.tv_detail);
+//
+//        User user = (User) getIntent().getSerializableExtra("user");
+//        Log.d(TAG, user.toString());
+//
+//        tv_detail.setText(user.toString());
+//    }
 }
